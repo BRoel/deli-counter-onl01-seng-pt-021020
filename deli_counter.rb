@@ -1,4 +1,4 @@
-def line(array)
+def line(array, num)
  current_line = []
    if current_line.size == 0
      puts "The line is currently empty."
