@@ -1,7 +1,7 @@
-katz_deli = ["Moshe", "Fayge", "Rivki"]
+katz_deli = ["Brennan", "Elyse", "Roel"]
 
 
-def line(array) # this was the one I figured out
+def line(array) 
   if array.length >= 1
     nuarray = []
     counter = 1 
@@ -39,7 +39,7 @@ def take_a_number(line, new_person)
   puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
-take_a_number(katz_deli, "Fyvish")
+take_a_number(katz_deli, "kats")
 
 def now_serving(line)
   if line.length == 0 # could say: "if deli.empty?"
