@@ -1,5 +1,5 @@
 def line(array)
- current_line = []
+ current_line = [10]
    if current_line.size == 0
      puts "The line is currently empty."
    else
