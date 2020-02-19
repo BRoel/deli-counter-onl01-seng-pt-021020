@@ -5,7 +5,7 @@ def line(array)
    else
      array.each do |name|
        customers = "The line is currently: #{num}. #{name}"
-       num += 1
+       (name.index +1, actually)
        current_line << customers
    end
      return current_line
